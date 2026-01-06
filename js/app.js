@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="detail"><strong> Uzatma:</strong> ${car.gearbox || 'Avtomatik'}</div>
                     <div class="detail"><strong> Haydovchi:</strong> ${car.drive}</div>
 
-                    <div class="price">💵 ${car.pricePerDay}/kun</div>
+                    <div class="price"> ${car.pricePerDay}/kun</div>
                 </div>
             `;
 
